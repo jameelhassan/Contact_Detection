@@ -8,4 +8,4 @@ To test code use the folder of images 'data/new'. This has the RGB, Grayscale im
 
 Run the notebook "Handshake Detection Full.ipynb" to detect handshakes in the given video stream ie:'data/new'.
 
-To use the openpose model, you will need to install openpose (CMU-openpose) and have the models in the folder of the script. This is required only for the notebook "Handkeypoints.ipynb". 
+To use the openpose model, you will need to install openpose [(CMU-openpose)](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and have the models in the folder of the script. This is required only for the notebook "Handkeypoints.ipynb".  
