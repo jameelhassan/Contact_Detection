@@ -14,4 +14,6 @@ The dataset primarily employed is the [SDHA human interaction dataset](https://c
   - The shape refers to number of hands(ie: left and right), number of people, number of hand keypoints, (x,y coordinates and confidence).
 - Body keypoints of shape (num_ppl,25,3) for each frame in *pose* folder as numpy arrays.
 
+The *results* folder has the handshake detected images for the folder *new*.
+
 Run the notebook "Handshake Detection Full.ipynb" to detect handshakes in the given video stream ie:'data/new'. Please ensure you have changed the paths as necessary. The script requires the RGB, depth images, pose and handkeypoint numpy arrays.
